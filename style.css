@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #f7797d); /* Blue to Pink gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow to elevate the card */
+}
+
+.title {
+    background: -webkit-linear-gradient(45deg, #3498db, #e74c3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 {
+    color: #2c3e50;
+}
+
+#convertBtn {
+    background-color: #3498db; /* Blue button */
+    border-color: #3498db;
+    color: #fff;
+}
+
+#convertBtn:hover {
+    background-color: #f7797d; /* Pink hover effect */
+    border-color: #f7797d;
+}
+
+.converted-values {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+}
